@@ -1,0 +1,21 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-item {
+    max-width: 85%;
+    font-size: 4em;
+    font-family: "Courier";
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
