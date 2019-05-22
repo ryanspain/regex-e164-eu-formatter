@@ -9,7 +9,7 @@ function formatNumber(phoneNumber, input) {
         .replace(/^[+00]{3}|^[00]{2}/g, '+')
 
         // Add Irish country prefix
-        .replace(/^0(?=[1-9])/, '+353');
+        .replace(/^0(?=[1-9])|^353/, '+353');
 
     // Validate result
     alert(validatedNumber(formattedNumber));
