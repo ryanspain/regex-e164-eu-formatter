@@ -3,7 +3,7 @@ function formatNumber(phoneNumber, input) {
     let formattedNumber = phoneNumber
 
         // Remove all characters but digits and +
-        .replace(/\D|\+/g, '')
+        .replace(/[^\d+]/g, '')
 
         // Remove international dialing prefix
         .replace(/^[+00]{3}|^[00]{2}/g, '+')
